@@ -1,0 +1,457 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url(fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url(fonts/Catamaran.ttf);
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Pro';
+    src: url(fonts/avgr45w.ttf);
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Pro';
+    src: url(fonts/ITC\ Avant\ Garde\ Gothic\ LT\ Bold.otf);
+}
+
+.section {
+    position: relative;
+    width: 1440px;
+    height: 864px;
+}
+
+.section .content {
+    position: absolute;
+    width: 720px;
+    height: 864px;
+    left: 720px;
+    top: 0px;
+}
+
+.section .image {
+    position: absolute;
+    width: 720px;
+    height: 864px;
+    left: 0px;
+    top: 0px;
+}
+
+.section .image .icon {
+    position: absolute;
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+    left: calc(50% - 32px/2);
+    top: calc(50% - 32px/2);
+    opacity: 0.1;
+    color: #000;
+}
+
+.section .image .image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.section .content .button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 48px;
+    top: 541px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.section .content .button i {
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll {
+    position: absolute;
+    width: 720px;
+    height: 363px;
+    left: 0px;
+    top: 406px;
+    overflow: hidden;
+}
+
+.section .content .scroll .product.card:nth-child(1) {
+    position: absolute;
+    width: 230px;
+    height: 363px;
+    left: 644px;
+    top: 0px;
+}
+
+.section .content .scroll .product.card:nth-child(1) .detials {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 88.71%;
+    bottom: -0.83%;
+}
+
+/*.section .content .product.card:nth-child(1) .detials .frame21 {} */
+
+.section .content .scroll .product.card:nth-child(1) .detials .frame21 p {
+    width: 230px;
+    height: 20px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 160%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-child(1) .detials .frame25 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 230px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-child(1) .detials .frame25 p {
+    position: absolute;
+    left: 0%;
+    right: 82.61%;
+    top: 50%;
+    bottom: 0%;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.8px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.scroll .product.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px 3px;
+    gap: 10px;
+    position: absolute;
+    visibility: hidden;
+    width: 94px;
+    height: 24px;
+    left: 12px;
+    top: 12px;
+    background: #FFFFFF;
+}
+
+.scroll .product.tag p {
+    width: 78px;
+    height: 17px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.scroll .product.card .image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 14.6%;
+}
+
+.scroll .product.card .image img {
+    width: 230px;
+    height: 310px;
+}
+
+.section .content .scroll .product.card:nth-child(2) {
+    position: absolute;
+    width: 230px;
+    height: 363px;
+    left: 382px;
+    top: 0px;
+}
+
+.section .content .scroll .product.card:nth-child(3) {
+    position: absolute;
+    width: 230px;
+    height: 363px;
+    left: 120px;
+    top: 0px;
+}
+
+.section .content .scroll .product.card:nth-child(2) .detials {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 88.71%;
+    bottom: -0.83%;
+}
+
+/*.section .content .product.card:nth-child(1) .detials .frame21 {} */
+
+.section .content .scroll .product.card:nth-child(2) .detials .frame21 p {
+    width: 230px;
+    height: 20px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 160%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-child(2) .detials .frame25 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 230px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.section .content .scroll .product.card:nth-child(2) .detials .frame25 p {
+    position: absolute;
+    left: 0%;
+    right: 82.61%;
+    top: 50%;
+    bottom: 0%;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.8px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+}
+
+.section .content .scroll .product.card:nth-child(3) .detials {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 88.71%;
+    bottom: -0.83%;
+}
+
+/*.section .content .product.card:nth-child(1) .detials .frame21 {} */
+
+.section .content .scroll .product.card:nth-child(3) .detials .frame21 p {
+    width: 230px;
+    height: 20px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 160%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-child(3) .detials .frame25 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 230px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.section .content .scroll .product.card:nth-child(3) .detials .frame25 p {
+    position: absolute;
+    left: 0%;
+    right: 82.61%;
+    top: 50%;
+    bottom: 0%;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.8px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.frame25 span:nth-last-of-type(1) {
+    position: absolute;
+    left: 68.7%;
+    right: 26.09%;
+    top: 60%;
+    bottom: 20%;
+    background: #99C4CC;
+    border: 1px solid #000000;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.frame25 span:nth-last-of-type(2) {
+    position: absolute;
+    left: 77.39%;
+    right: 17.39%;
+    top: 60%;
+    bottom: 20%;
+    background: #CC9999;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.frame25 span:nth-last-of-type(3) {
+    position: absolute;
+    left: 86.09%;
+    right: 8.7%;
+    top: 60%;
+    bottom: 20%;
+    background: #CB99CC;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.frame25 span:nth-last-of-type(4) {
+    position: absolute;
+    left: 94.78%;
+    right: 0%;
+    top: 60%;
+    bottom: 20%;
+    background: #A6CC99;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.group {
+    position: absolute;
+    width: 494px;
+    height: 242px;
+    left: 120px;
+    top: 96px;
+}
+
+.group .content {
+    width: 146px;
+    height: 17px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    left: 0;
+    top: 220px;
+}
+
+.group span {
+    width: 146px;
+    height: 1px;
+    background: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.group h1 {
+    position: absolute;
+    width: 494px;
+    height: 123px;
+    left: 0;
+    top: 0;
+    font-family: 'ITC Avant Garde Gothic Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 130%;
+    display: flex;
+    align-items: flex-end;
+    color: #000;
+}
+
+.group p {
+    position: absolute;
+    width: 432px;
+    height: 52px;
+    left: 0;
+    top: 148px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #666666;
+}
